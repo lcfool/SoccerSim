@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemActiveIndicatorStyle">@style/CustomBottomNavActiveIndicator</item>
+        <item name="itemIconTint">@color/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_color_selector</item>
+        <item name="backgroundTint">@color/colorSurface</item>
+    </style>
+
+    <style name="CustomBottomNavActiveIndicator" parent="">
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="marginHorizontal">4dp</item>
+        <item name="shapeAppearance">
+            @style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator
+        </item>
+        <item name="android:color">@color/colorSecondary</item>
+    </style>
+
+    <style name="TableHeaderTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="tint">@color/colorOnSecondary</item>
+    </style>
+</resources>

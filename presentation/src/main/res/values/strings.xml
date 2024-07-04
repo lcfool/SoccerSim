@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoccerSim</string>
+
+    <string name="title_rounds">Rounds</string>
+    <string name="title_standings">Standings</string>
+
+    <string name="txt_round_with_number">Round %1$d</string>
+    <string name="txt_match_score">%1$d - %2$d</string>
+    <string name="txt_match_score_placeholder">X - X</string>
+
+    <string name="desc_simulate_matches">Simulate Matches</string>
+
+    <string name="txt_standings_position">#</string>
+    <string name="txt_standings_team">Team</string>
+    <string name="txt_standings_played">Pld</string>
+    <string name="txt_standing_won">W</string>
+    <string name="txt_standings_drawn">D</string>
+    <string name="txt_standings_lost">L</string>
+    <string name="txt_standings_goals_for">GF</string>
+    <string name="txt_standings_goals_against">GA</string>
+    <string name="txt_standings_goals_diff">GD</string>
+    <string name="txt_standings_points">Pts</string>
+    <string name="txt_no_standings">Matches not played!\n Please simulate matches to get standings</string>
+
+</resources>

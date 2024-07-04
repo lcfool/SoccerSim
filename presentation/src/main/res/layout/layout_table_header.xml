@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:id="@+id/header_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/header_position"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_position" />
+
+        <TextView
+            android:id="@+id/header_team_name"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.3"
+            android:text="@string/txt_standings_team" />
+
+        <TextView
+            android:id="@+id/header_games_played"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_played" />
+
+        <TextView
+            android:id="@+id/header_games_won"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standing_won" />
+
+        <TextView
+            android:id="@+id/header_games_drawn"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_drawn" />
+
+        <TextView
+            android:id="@+id/header_games_lost"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_lost" />
+
+        <TextView
+            android:id="@+id/header_goals_for"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_goals_for" />
+
+        <TextView
+            android:id="@+id/header_goals_against"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_goals_against" />
+
+        <TextView
+            android:id="@+id/header_goal_difference"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_goals_diff" />
+
+        <TextView
+            android:id="@+id/header_points"
+            style="@style/TableHeaderTextStyle"
+            android:layout_weight="0.1"
+            android:text="@string/txt_standings_points" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
